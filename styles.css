@@ -1,0 +1,44 @@
+body{
+margin:0
+}
+
+.containergame{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.game-box{
+    display: grid;
+    grid-template-rows: 80px 80px 80px;
+    grid-template-columns: 80px 80px 80px;
+    gap: 2px;
+    margin: 30px;
+    
+
+}
+.box{
+    border: 1px solid blue;
+
+}
+.quijoue{
+    color: blueviolet;
+    font-size: 25px;
+}
+
+.scoreplayer1 ,.scoreplayer2,.egality  {
+    display: flex;
+    flex-wrap: nowrap;
+    
+    
+    
+    
+}
+.scoreplayer1 p  ,.scoreplayer2 p,.egality p {
+   
+   font-size: 25px; 
+    margin-right: 15px;
+}
+    
+    
