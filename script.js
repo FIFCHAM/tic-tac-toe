@@ -20,4 +20,8 @@ shebang.forEach(e => {
 
 function theGame(e){
     console.log(e);
+    player()
+}
+function player(){
+console.log('hello');
 }
