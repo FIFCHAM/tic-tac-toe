@@ -19,8 +19,15 @@ margin:0
 
 }
 .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 1px solid blue;
 
+}
+.box p{
+    visibility:;
+    font-size: xxx-large;
 }
 .quijoue{
     color: blueviolet;
@@ -40,5 +47,11 @@ margin:0
    font-size: 25px; 
     margin-right: 15px;
 }
-    
+.playerO{
+    font-size: xxx-large;
+ } 
+.playerX{
+    font-size: xxx-large;
+ } 
+
     
