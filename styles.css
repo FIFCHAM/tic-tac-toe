@@ -25,10 +25,6 @@ margin:0
     border: 1px solid blue;
 
 }
-.box p{
-    visibility:;
-    font-size: xxx-large;
-}
 .quijoue{
     color: blueviolet;
     font-size: 25px;
@@ -48,10 +44,20 @@ margin:0
     margin-right: 15px;
 }
 .playerO{
+visibility: hidden;
     font-size: xxx-large;
  } 
 .playerX{
+    visibility: hidden;
     font-size: xxx-large;
  } 
-
+.visible{
+    
+    visibility: visible;
+    
+    font-size: xxx-large;
+ } 
+.hidden{
+    display: none;
+}
     
